@@ -159,12 +159,10 @@ p > code, div > code, li > code {
 }
 
 .wrapper {
-  width      : 909px;
+  width      : 700px;
   padding    : 0 14px 0 14px;
-  margin     : 0 auto;
   text-align : left;
   overflow   : hidden;
-  position   : relative;
 }
 
 div#navigation {
@@ -251,10 +249,11 @@ div#navigation ul li.selected a:visited {
 
 div#content {
   clear      : both;
-  margin     : 0 auto 3em auto;
   padding    : 0 0 0;
   text-align : center;
   overflow   : hidden;
+  width: 700px;
+  margin: 0px auto;
 }
 
 div#content div.pad {
@@ -263,8 +262,8 @@ div#content div.pad {
 }
 
 div#main {
-  float       : left;
-  width       : 550px;
+  float       : right;
+  width       : 700px;
   overflow    : hidden;
   padding-top : 2em;
 }
@@ -355,10 +354,10 @@ div#main {
 }
 
 div#sidebar {
-  float       : right;
-  width       : 325px;
-  overflow    : hidden;
-  padding-top : 0;
+  width       : 275px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
 }
 
 #sidebar ul {
@@ -633,7 +632,7 @@ div#sidebar h2 {
   font-size      : 1.2em;
   letter-spacing : .5px;
   text-transform : uppercase;
-  margin         : 40px 20px 5px 20px;
+  margin         : 25px 20px 5px 20px;
 }
 
 .highlight pre {

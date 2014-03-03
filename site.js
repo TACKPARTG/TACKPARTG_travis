@@ -19,4 +19,8 @@ $(function(){
       list.append("<li><a href=\"#" + encodeURIComponent(id) + "\">" + text + "</a></li>");
     }
   });
+
+  $('#sidebar h2').click(function(e) {
+    $(this).next().toggle();
+  });
 });
